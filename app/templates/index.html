@@ -1,11 +1,19 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello World</h1>
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block body %}
+
+<!-- Sidebar/menu -->
+<nav class="sidebar" style="">
+  <div class="bar-title">
+    <h3 class="bar-title-text"><b>amenom</b></h3>
+  </div>
+  <div class="bar-item-list">
+      <a href="#" class="bar-item-text bar-item-text-hover">Home</a>
+      <a href="#" class="bar-item-text bar-item-text-hover">New Music</a>
+      <a href="#" class="bar-item-text bar-item-text-hover">Genres</a>
+      <a href="#" class="bar-item-text bar-item-text-hover">Charts</a>
+      <a href="#" class="bar-item-text bar-item-text-hover">Lists</a>
+  </div>
+</nav>
+
+{% endblock %}

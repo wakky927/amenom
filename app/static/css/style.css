@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.sidebar {
+    margin: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #FF7E7E;
+    padding: 80px 0;
+    border-bottom: none;
+    z-index: 3;
+    position: fixed;
+}
+
+.bar-title {
+    margin: 20px auto 100px;
+    text-align: center;
+}
+
+.bar-title-text {
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+    font-size: 3.2rem;
+    color: #FFFFFF;
+}
+
+.bar-item-list {
+    margin-top: 20px;
+    display: block;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+}
+
+.bar-item-text {
+    padding: 10px 20px;
+    margin: 10px 20px;
+    float: left;
+    width: 220px;
+    border: none;
+    display: block;
+    outline: 0;
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 2.0rem;
+    color: #FFFFFF;
+}
+
+.bar-item-text-hover:hover {
+    background-color: #FFFFFF;
+    color: #FF7E7E;
+}
