@@ -4,16 +4,75 @@
 
 <!-- Sidebar/menu -->
 <nav class="sidebar" style="">
-  <div class="bar-title">
-    <h3 class="bar-title-text"><b>amenom</b></h3>
-  </div>
-  <div class="bar-item-list">
-      <a href="#" class="bar-item-text bar-item-text-hover">Home</a>
-      <a href="#" class="bar-item-text bar-item-text-hover">New Music</a>
-      <a href="#" class="bar-item-text bar-item-text-hover">Genres</a>
-      <a href="#" class="bar-item-text bar-item-text-hover">Charts</a>
-      <a href="#" class="bar-item-text bar-item-text-hover">Lists</a>
-  </div>
+    <div class="bar-title">
+        <h3 class="bar-title-text"><b>amenom</b></h3>
+    </div>
+    <div class="bar-item-list">
+        <a href="#" class="bar-item-text bar-item-text-hover">Home</a>
+        <a href="#" class="bar-item-text bar-item-text-hover">New music</a>
+        <a href="#" class="bar-item-text bar-item-text-hover">Genres</a>
+        <a href="#" class="bar-item-text bar-item-text-hover">Charts</a>
+        <a href="#" class="bar-item-text bar-item-text-hover">Lists</a>
+    </div>
 </nav>
+
+<!-- !Page Content! -->
+<div class="main">
+
+    <!-- Featured reviews -->
+    <div class="main-container" id="featured-reviews" style="padding-top:60px">
+        <h1 class="main-title">Featured reviews</h1>
+    </div>
+
+    <!-- Review Card (modal) -->
+    <div class="main-container" id="review-cards">
+        <div class="card">
+            <div class="upper">
+                <img src="../static/img/sample1.png" style="width:80%">
+                <p><span class="star5_rating" data-rate="3.5"></span></p>
+                <div class="tags">
+                    <div class="tag"><p class="tag-text">AAA</p></div>
+                    <div class="tag"><p class="tag-text">BBB</p></div>
+                </div>
+            </div>
+        <div class="bottom">
+            <p class="cd-title">What is Lorem Ipsum? (2022)</p>
+            <p class="artist">Lorem Ipsum</p>
+            <p class="review">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+    </div>
+
+        <div class="card">
+            <div class="upper">
+                <img src="../static/img/sample2.png" style="width:80%">
+                <p><span class="star5_rating" data-rate="2"></span></p>
+                <div class="tags">
+                    <div class="tag"><p class="tag-text">CCC</p></div>
+                </div>
+            </div>
+            <div class="bottom">
+                <p class="cd-title">Where does it come from? (2019)</p>
+                <p class="artist">Lorem Ipsum</p>
+                <p class="review">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="upper">
+                <img src="../static/img/sample3.png" style="width:80%">
+                <p><span class="star5_rating" data-rate="4.5"></span></p>
+                <div class="tags">
+                    <div class="tag"><p class="tag-text">AAA</p></div>
+                    <div class="tag"><p class="tag-text">BBB</p></div>
+                    <div class="tag"><p class="tag-text">DDD</p></div>
+                </div>
+            </div>
+            <div class="bottom">
+                <p class="cd-title">Why do we use it? (2008)</p>
+                <p class="artist">Lorem Ipsum</p>
+                <p class="review">t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p></div>
+        </div>
+    </div>
+
+</div>
 
 {% endblock %}

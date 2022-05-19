@@ -25,6 +25,7 @@ a {
     border-bottom: none;
     z-index: 3;
     position: fixed;
+    overflow:auto;
 }
 
 .bar-title {
@@ -68,3 +69,133 @@ a {
     background-color: #FFFFFF;
     color: #FF7E7E;
 }
+
+.main {
+    margin-left: 340px;
+    margin-right: 40px;
+}
+
+.main-container {
+    padding-top: 40px;
+    display: flex;
+}
+
+.main-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 3.2rem;
+    color: #FF7E7E;
+}
+
+.card {
+    width: 300px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.upper {
+    height: 330px;
+    padding-top: 30px;
+    background-color: #FF7E7E;
+}
+
+.star5_rating{
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    white-space: nowrap;
+    color: #FF7E7E;
+    font-size: 30px;
+}
+
+.star5_rating:before, .star5_rating:after{
+    content: '★★★★★';
+}
+
+.star5_rating:after{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+
+.star5_rating[data-rate="5"]:after{ width: 100%; } /* 星5 */
+.star5_rating[data-rate="4.5"]:after{ width: 90%; } /* 星4.5 */
+.star5_rating[data-rate="4"]:after{ width: 80%; } /* 星4 */
+.star5_rating[data-rate="3.5"]:after{ width: 70%; } /* 星3.5 */
+.star5_rating[data-rate="3"]:after{ width: 60%; } /* 星3 */
+.star5_rating[data-rate="2.5"]:after{ width: 50%; } /* 星2.5 */
+.star5_rating[data-rate="2"]:after{ width: 40%; } /* 星2 */
+.star5_rating[data-rate="1.5"]:after{ width: 30%; } /* 星1.5 */
+.star5_rating[data-rate="1"]:after{ width: 20%; } /* 星1 */
+.star5_rating[data-rate="0.5"]:after{ width: 10%; } /* 星0.5 */
+.star5_rating[data-rate="0"]:after{ width: 0%; } /* 星0 */
+
+.tags {
+    display: flex;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.tag {
+    height: 12px;
+    padding: 2px 20px 4px 20px;
+    margin-right: 8px;
+    border: 2px solid #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 16px;
+}
+
+.tag-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.0rem;
+    color: #FFFFFF;
+}
+
+.bottom {
+    height: 300px;
+    padding: 16px 12px;
+    border: 2px solid #FF7E7E;
+    background-color: #FFFFFF;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+
+.cd-title {
+    padding-bottom: 6px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 1.2rem;
+    color: #333333;
+}
+
+.artist {
+    padding-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333333;
+}
+
+.review {
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 1.0rem;
+    color: #333333;
+}
+
+/*.footer {*/
+/*    width: 100%;*/
+/*    background-color: #FF7E7E;*/
+/*    color: #fff;*/
+/*    text-align: center;*/
+/*    padding: 0;*/
+
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*}*/
